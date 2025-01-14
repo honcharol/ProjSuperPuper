@@ -1,0 +1,15 @@
+{
+  "name": "oleg_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "testCase": "npx playwright test tests - project=chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
